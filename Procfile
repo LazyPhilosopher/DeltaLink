@@ -1,1 +1,1 @@
-web: gunicorn deltalink:app
+python: gunicorn deltalink:app
