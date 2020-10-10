@@ -1,4 +1,4 @@
-cd C:\Users\count\Desktop\ČVUT\VIA\DeltaLink
+﻿cd C:\Users\count\Desktop\ČVUT\VIA\DeltaLink
 heroku login
 heroku git:remote -a deltalink
 git add .
