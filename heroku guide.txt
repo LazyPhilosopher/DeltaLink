@@ -1,0 +1,9 @@
+cd C:\Users\count\Desktop\ČVUT\VIA\DeltaLink
+heroku login
+heroku git:remote -a deltalink
+git add .
+git commit -am "make it better"
+git push heroku main
+
+heroku logs --tail
+git status
