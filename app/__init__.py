@@ -1,6 +1,8 @@
-from flask import Flask
+from flask import Flask, render_template, Response
+#from config import Config
 
-print("__init__.py file started")
+#print(__name__)
 app = Flask(__name__)
+#app.config.from_object(Config)
 
 from app import routes
