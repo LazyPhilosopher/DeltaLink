@@ -7,3 +7,11 @@ git push heroku main
 
 heroku logs --tail
 git status
+
+
+cd C:\Users\count\Desktop\ČVUT\VIA\DeltaLink
+python3 -m venv env
+pip install flask
+set FLASK_APP=deltalink.py
+set FLASK_ENV=development
+flask run
