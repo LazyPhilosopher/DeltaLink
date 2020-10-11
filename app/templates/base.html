@@ -1,0 +1,14 @@
+<html>
+<head>
+    {% if title %}
+    <title>{DeltaLink - { title }}</title>
+    {% else %}
+    <title>Welcome to DeltaLink</title>
+    {% endif %}
+</head>
+<body>
+    <div>DeltaLink: <a href="/index">Home</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
