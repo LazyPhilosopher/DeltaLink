@@ -2,7 +2,7 @@ from flask import render_template, flash, redirect
 from app import app
 from app.forms import LoginForm
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
@@ -26,7 +26,7 @@ def index():
         }, 
         {
             'author': {'username': 'admin'},
-            'body': 'website test commencing....'
+            'body': 'website test commencing...'
         }
     ]
     return render_template('index.html', title='Home', user=user, posts=posts)
