@@ -25,6 +25,10 @@ def index():
             'body': 'The Avengers movie was so cool!'
         }, 
         {
+            'author': {'username': 'Confucius'},
+            'body': 'Seryi is baklan'
+        },
+        {
             'author': {'username': 'admin'},
             'body': 'website test commencing...'
         }
